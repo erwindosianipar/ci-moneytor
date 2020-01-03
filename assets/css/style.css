@@ -1,0 +1,45 @@
+@font-face{
+	font-family: 'Apple Font';
+	src: url('../fonts/SF-Pro-Text-Regular.ttf')format('woff');
+	font-weight: normal;
+	font-style: normal
+}
+body{
+	font-family: 'Apple Font'!important;
+	background: #f8f8f8!important
+}
+.brad-20{
+	border-radius: 20px!important
+}
+@media only screen and (max-width:570px){
+	.post-outer{
+		padding-right: 0!important;
+		padding-left: 0!important
+	}
+	.post-outer .card{
+		border-left: none;
+		border-right: none;
+		border-radius: 0
+	}
+}
+.link{
+	border-bottom: 1px solid #4e73df!important
+}
+.swal-footer{
+  text-align: center
+}
+.mt--33{
+	margin-top: -33px
+}
+.mt--20{
+	margin-top: -18px!important
+}
+.shadow-add{
+	box-shadow: 0px -2px 0px 1px rgba(58,59,69,.2)
+}
+.nav-tabs{
+	border: 0px!important
+}
+.border-btn-tab{
+	border: 1px solid #f5f5f5!important
+}
