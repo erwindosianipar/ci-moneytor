@@ -27,7 +27,7 @@ if ($this->session->flashdata('info')) echo $this->session->flashdata('info');
 			<div class="col-lg-4 post-outer">
 				<?php if ($uang_rows->num_rows() < 1): ?>
 					<div class="mt-5">
-						<img src="<?= base_url('assets/.images/start.png'); ?>" alt="Empty" class="img-fluid p-2">
+						<img src="<?= base_url('assets/images/1D2DTBHNU.png'); ?>" alt="Empty" class="img-fluid p-2">
 						<div class="font-weight-light text-center h6 mt-3">Start to monitoring your money!</div>
 					</div>
 				<?php endif; ?>
@@ -205,15 +205,15 @@ if ($this->session->flashdata('info')) echo $this->session->flashdata('info');
 					<div class="form-row">
 						<div class="col">
 							<select name="bulan" class="custom-select form-control brad-20 mb-4">
-								<option value="01"<?php if(date('m') == 01) echo ' selected'; ?>>January</option>
-								<option value="02"<?php if(date('m') == 02) echo ' selected'; ?>>February</option>
-								<option value="03"<?php if(date('m') == 03) echo ' selected'; ?>>March</option>
-								<option value="04"<?php if(date('m') == 04) echo ' selected'; ?>>April</option>
-								<option value="05"<?php if(date('m') == 05) echo ' selected'; ?>>May</option>
-								<option value="06"<?php if(date('m') == 06) echo ' selected'; ?>>June</option>
-								<option value="07"<?php if(date('m') == 07) echo ' selected'; ?>>July</option>
-								<option value="08"<?php if(date('m') == 08) echo ' selected'; ?>>August</option>
-								<option value="09"<?php if(date('m') == 09) echo ' selected'; ?>>September</option>
+							    <option value="01"<?php if(date('m') == 1) echo ' selected'; ?>>January</option>
+								<option value="02"<?php if(date('m') == 2) echo ' selected'; ?>>February</option>
+								<option value="03"<?php if(date('m') == 3) echo ' selected'; ?>>March</option>
+								<option value="04"<?php if(date('m') == 4) echo ' selected'; ?>>April</option>
+								<option value="05"<?php if(date('m') == 5) echo ' selected'; ?>>May</option>
+								<option value="06"<?php if(date('m') == 6) echo ' selected'; ?>>June</option>
+								<option value="07"<?php if(date('m') == 7) echo ' selected'; ?>>July</option>
+								<option value="08"<?php if(date('m') == 8) echo ' selected'; ?>>August</option>
+								<option value="09"<?php if(date('m') == 9) echo ' selected'; ?>>September</option>
 								<option value="10"<?php if(date('m') == 10) echo ' selected'; ?>>October</option>
 								<option value="11"<?php if(date('m') == 11) echo ' selected'; ?>>November</option>
 								<option value="12"<?php if(date('m') == 12) echo ' selected'; ?>>December</option>
