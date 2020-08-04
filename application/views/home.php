@@ -27,7 +27,7 @@ if ($this->session->flashdata('info')) echo $this->session->flashdata('info');
 			<div class="col-lg-4 post-outer">
 				<?php if ($uang_rows->num_rows() < 1): ?>
 					<div class="mt-5">
-						<img src="<?= base_url('assets/images/1D2DTBHNU.png'); ?>" alt="Empty" class="img-fluid p-2">
+						<img src="<?= base_url('assets/images/home.png'); ?>" alt="Empty" class="img-fluid p-2">
 						<div class="font-weight-light text-center h6 mt-3">Start to monitoring your money!</div>
 					</div>
 				<?php endif; ?>
