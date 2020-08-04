@@ -1,4 +1,8 @@
-# moneytor-codeiginiter
+## Moneytor Apps CodeIgniter
+
+Moneytor Apps CodeIgniter is an web based application used to "Moneytoring" money. Used to monitor money like spending or incomming money
+
+[Demo](https://moneytors.herokuapp.com)
 
 ## Whats is CodeIgniter
 
@@ -7,10 +11,6 @@ CodeIgniter is an Application Development Framework - a toolkit - for people who
 ## CodeIgniter PHP Mailer
 
 PHPMailer - A full-featured email creation and transfer class for PHP
-
-## Moneytor Apps CodeIgniter
-
-Moneytor Apps CodeIgniter is an web based application used to "Moneytoring" money. Used to monitor money like spending or incomming money
 
 ## Installation
 
@@ -53,5 +53,5 @@ $db['default'] = array(
 Open in browser
 
 ```
-http://localhost/moneyor/
+http://localhost/moneytor/
 ```
