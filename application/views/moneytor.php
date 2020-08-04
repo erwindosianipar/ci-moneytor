@@ -71,7 +71,7 @@ if ($this->session->flashdata('info')) echo $this->session->flashdata('info');
 			<div class="collapse" id="qrcode">
 				<center>
 					<div class="row col-6">
-						<img src="<?= base_url('assets/.images/qrcode/'.$pocket['qrcode']); ?>" alt="QRcode" class="img-fluid img-thumbnail shadow-sm mb-4">
+						<img src="<?= base_url('assets/images/qrcode/'.$pocket['qrcode']); ?>" alt="QRcode" class="img-fluid img-thumbnail shadow-sm mb-4">
 					</div>
 				</center>
 			</div>
@@ -96,7 +96,7 @@ if ($this->session->flashdata('info')) echo $this->session->flashdata('info');
 						<div class="list-group mt-2">
 							<?php if ($income_rows->num_rows() < 1): ?>
 								<div class="text-center">
-									<img src="<?= base_url('assets/.images/empty.png'); ?>" alt="No data" class="img-fluid pt-5 pl-5 pr-5">
+									<img src="<?= base_url('assets/images/empty.png'); ?>" alt="No data" class="img-fluid pt-5 pl-5 pr-5">
 								</div>
 							<?php endif; ?>
 							<?php foreach ($income_rows->result_array() as $income): ?>
@@ -130,7 +130,7 @@ if ($this->session->flashdata('info')) echo $this->session->flashdata('info');
 						<div class="list-group mt-2">
 							<?php if ($spending_rows->num_rows() < 1): ?>
 								<div class="text-center">
-									<img src="<?= base_url('assets/.images/empty.png'); ?>" alt="No data" class="img-fluid pt-5 pl-5 pr-5">
+									<img src="<?= base_url('assets/images/empty.png'); ?>" alt="No data" class="img-fluid pt-5 pl-5 pr-5">
 								</div>
 							<?php endif; ?>
 							<?php foreach ($spending_rows->result_array() as $spending): ?>

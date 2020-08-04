@@ -33,7 +33,7 @@ class Home extends CI_Controller {
 			$this->load->library('ciqrcode');
 
 			$config['cacheable']    = true;
-	        $config['imagedir']     = '/assets/.images/qrcode/';
+	        $config['imagedir']     = '/assets/images/qrcode/';
 	        $config['quality']      = true;
 	        $config['size']         = '1024';
 	        $config['black']        = array(224,255,255);
@@ -200,7 +200,7 @@ class Home extends CI_Controller {
 			$pengeluaran 	= $this->model_home->hapus_moneytor($uang_id, 'pengeluaran');
 			$moneytor 		= $this->model_home->hapus_moneytor($uang_id, 'uang');
 			
-			unlink('assets/.images/qrcode/'.$pocket.'.png');
+			unlink('assets/images/qrcode/'.$pocket.'.png');
 
 			if ($pemasukan && $pengeluaran && $moneytor)
 			{
